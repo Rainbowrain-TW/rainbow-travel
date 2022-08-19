@@ -1,17 +1,20 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Main() {
-    return (
-      <>
+  return (
+    <>
+      <div className="content">
         <main>
           <h2>Let see where the awesome place</h2>
-          <p>kaohsiung, kaohsiung, kaohsiung, kaohsiung, kaohsiung, </p>
+          <p> - - - - - - - - - - - - - - - - - - - -</p>
+          <nav><Link to="/poi">awsome place</Link></nav>
         </main>
         <nav>
           <Link to="/about">About</Link>
         </nav>
-      </>
-    );
+        </div>
+    </>
+  );
 }
 
 export default Main;
